@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exe02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="bt1">
+        <button onclick="arcoiris('blue')">BLUE</button>
+        <button onclick="arcoiris('red')">RED</button>
+        <button onclick="arcoiris('green')">GREEN</button>
+        <button onclick="arcoiris('black')">BLACK</button>
+        <button onclick="arcoiris('purple')">PURPLE</button>
+
+        <script>
+            function arcoiris(cores){
+
+            const corpo = document.getElementsByTagName("body")[0];
+            corpo.style.backgroundColor = cores
+            }
+
+
+        </script>
+    </div>
+</body>
+
+</html>
